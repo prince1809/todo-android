@@ -51,7 +51,7 @@ android {
     productFlavors {
         mock {
             dimension "default"
-            applicationId = ".mock"
+            applicationIdSuffix = ".mock"
         }
         prod {
             dimension "default"
